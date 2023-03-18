@@ -1,0 +1,3 @@
+[submodule "boost"]
+	path = boost
+	url = git@github.com:3dots/boost.git
