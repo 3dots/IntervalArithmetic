@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include "boost/numeric/interval.hpp"
 
 int main()
 {
