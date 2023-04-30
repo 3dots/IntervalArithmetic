@@ -4,9 +4,19 @@
 #include <iostream>
 #include "boost/numeric/interval.hpp"
 
+using namespace boost::numeric;
+using namespace interval_lib;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    interval<double> a = interval<double>(1, 2);
+    interval<double> b = interval<double>(1, 2);
+
+    interval<double> c = a + b;
+    
+    std::cout << c.lower();
+    std::cout << "\n";
+    std::cout << c.upper();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
