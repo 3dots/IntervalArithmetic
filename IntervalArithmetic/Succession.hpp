@@ -60,13 +60,13 @@ private:
     }
 
 public:
-	void run() {
+    void run() {
 
         std::vector<double> values = linspace(0.0, 1.0, POINTS_NO);
 
         for (double el : values) {
             std::cout << el << " " << dist1(el) << "\n";
         }
-	}
+    }
 };
 
